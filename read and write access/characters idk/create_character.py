@@ -17,4 +17,8 @@ class CreateCharacter:
     def set_name(self, name):
         self.name = name
 
-    def set_classtype(self, classtype)
+    def set_classtype(self, classtype):
+        self.classtype = classtype
+
+    def set_level(self, level):
+        self.level = level
